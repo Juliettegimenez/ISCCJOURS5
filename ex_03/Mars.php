@@ -1,4 +1,4 @@
-<?
+<?php
 namespace chocolate{
     class Mars {
         private $Id;
@@ -30,7 +30,7 @@ namespace planet {
             public function getSize(){
                 return $this->size;
         }
-        public function setSize(){
+        public function setSize($size){
             $this->size = $size;
         }
     }
